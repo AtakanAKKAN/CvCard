@@ -1,0 +1,95 @@
+
+
+
+body{
+    background: url(img/pexels-francesco-ungaro-2835436.jpg);
+    background-size: cover;
+}
+
+.box{
+    
+    margin-bottom: -40px;
+}
+
+
+.backgroundcolor{
+    background: rgba(128, 190, 206, 0.7);
+    margin-top: 5%;
+}
+
+.box,
+.footer{
+    padding: 40px;
+    text-align: center;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.box img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+.box img{
+    scale: 0.9;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.box p{
+    text-align:center;
+}
+
+.footer{
+    margin-bottom: -40px;
+}
+
+.footer a{
+    margin: 6px;
+    font-size: 60px;
+    color: #fff;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+.footer a:nth-child(1):hover{
+    color: blue;
+}
+.footer a:nth-child(2):hover{
+    color: black;
+}
+.footer a:nth-child(3):hover{
+    color: rgba(114, 137, 217,1.5);
+}
+.footer a:nth-child(4):hover{
+    /*background-color: linear-gradient(135deg,rgb(64, 93, 230),rgb(88, 81, 216),rgb(131, 58, 180),rgb(193, 53, 132),rgb(225, 48, 108),rgb(253, 29, 29),rgb(245, 96, 64),rgb(252, 175, 69),rgb(255, 220, 128),rgb(255, 255, 255) );
+    */
+    color: #bf3887;
+}
+
+
+
