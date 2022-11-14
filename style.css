@@ -91,5 +91,14 @@ body{
     color: #bf3887;
 }
 
+@media only screen and (max-width:992px) {
+
+    .backgroundcolor{
+        text-align: center;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    
+}
 
 
