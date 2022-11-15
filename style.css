@@ -34,6 +34,7 @@ body{
     -o-border-radius: 50%;
     height: 200px;
     width: 200px;
+    cursor:pointer;
     transition: .6s;
     -webkit-transition: .6s;
     -moz-transition: .6s;
@@ -41,7 +42,7 @@ body{
     -o-transition: .6s;
 }
 
-.box img{
+.box img:hover{
     scale: 0.9;
 }
 
@@ -96,7 +97,6 @@ body{
     .backgroundcolor{
         text-align: center;
         justify-content: center;
-        margin-top: 20%;
     }
     
 }
