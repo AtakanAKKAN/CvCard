@@ -11,7 +11,6 @@ body{
     margin-bottom: -40px;
 }
 
-
 .backgroundcolor{
     background: rgba(128, 190, 206, 0.7);
     margin-top: 5%;
@@ -34,7 +33,6 @@ body{
     -o-border-radius: 50%;
     height: 200px;
     width: 200px;
-    cursor:pointer;
     transition: .6s;
     -webkit-transition: .6s;
     -moz-transition: .6s;
@@ -50,16 +48,20 @@ body{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    font-family: 'Handlee', cursive;
 }
 
 .box h5{
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 3px;
+    font-family: sans-serif;
 }
 
 .box p{
-    text-align:center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
 }
 
 .footer{
@@ -91,6 +93,7 @@ body{
     */
     color: #bf3887;
 }
+
 
 @media only screen and (max-width:992px) {
 
